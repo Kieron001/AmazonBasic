@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite">
+
+    <listeners>
+        <listener class-name="main.java.utils.SuiteListener"/>
+    </listeners>
+
+    <test name="Amazon Test Automation">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <!--<class name="api.test.DataDrivenTests"/> -->
+            <class name="test.java.SampleTest"/>
+        </classes>
+    </test>
+</suite>
