@@ -64,6 +64,15 @@
             <artifactId>extentreports</artifactId>
             <version>5.0.9</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>  <!-- Use the latest available version -->
+            <scope>provided</scope>
+        </dependency>
+
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
